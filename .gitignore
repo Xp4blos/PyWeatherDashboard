@@ -1,0 +1,8 @@
+.venv
+.env
+.idea
+
+/.env
+/.venv
+/.idea
+/zaj-8-04-2026
