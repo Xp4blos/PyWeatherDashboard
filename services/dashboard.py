@@ -32,7 +32,7 @@ def render_dashboard(filepath):
 
 
     last_row = df.iloc[-1]
-    st.title("Aplikacja Pogodowa")
+    st.title("Panel Pogodowy")
     st.divider()
     st.subheader("Aktualne informacje")
 
