@@ -13,11 +13,11 @@ def get_weather():
     try:
         response = requests.get(url)
         data = response.json()
-
+        #ogarnąć miasto
         weather = {
             "temp": data.get("main").get("temp"),
             "feels_like": data.get("main").get("feels_like"),
-            "name": data.get("name"),
+            "name": city,
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
             "humidity": data.get("main").get("humidity"),
             "pressure": data.get("main").get("pressure"),
